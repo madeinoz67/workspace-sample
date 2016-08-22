@@ -27,7 +27,7 @@ cprequire_test(["inline:com-chilipeppr-workspace-se1"], function(ws) {
     ws.init();
     
     // Do some niceties for testing like margins on widget and title for browser
-    $('title').html("seaton Workspace");
+    $('title').html("Stephen's Workspace");
     $('body').css('padding', '10px');
 
 } /*end_test*/ );
@@ -40,7 +40,7 @@ cpdefine("inline:com-chilipeppr-workspace-se1", ["chilipeppr_ready"], function()
          */
         id: "com-chilipeppr-workspace-se1", // Make the id the same as the cpdefine id
         name: "seaton Workspace / Sample", // The descriptive name of your widget.
-        desc: `A ChiliPeppr Workspace sample.`,
+        desc: `Starting off Workspace for Stephen.`,
         url: "(auto fill by runme.js)", // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
         fiddleurl: "(auto fill by runme.js)", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
         githuburl: "(auto fill by runme.js)", // The backing github repo
